@@ -1,20 +1,108 @@
 /*////////////// Fonts //////////////*/
 
-/* link the web font used for the level 1 heading here */
+/* link the web font used for the level 1 heading here - had to delete 'serif' and extra full stop */
+
+@font-face {
+font-family: 'Baskerville';
+src: url(./fonts/Baskerville.ttc);
+
+}
 
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', Times, serif
 }
 
 .wrapper {
 	width: 960px;
-	margin: 0 auto;
+	margin: auto;
 	background: #fff;
 	padding: 0 45px 20px;
+	
 }
 
 /* Write all remaining styles here */
+
+h1 {  
+	padding-bottom: 10px;
+	margin: 0 0 5px;
+	font-size: 5em;
+	font-weight: bolder;
+	font-family: 'Baskerville', serif;
+	border-bottom: 1px solid #ccc;
+ 
+}
+
+header a:hover {
+	color: rgb(111,127,122)
+}
+
+header a {
+	color: rgb(152,173,166);
+    text-decoration: none;
+	font-weight: lighter;
+
+}
+
+#learn {
+	text-decoration:none;
+	color: #1783bb;
+}
+
+#learn:hover {
+	text-decoration: underline;
+	color: #1783bb;
+}
+
+a {
+	text-decoration: none;
+	color: #1783bb;
+}
+
+#necklace-image {
+	border: 5px grey solid;
+}
+
+
+h2 {
+	color: grey;
+}
+
+#nmai-logo  {
+	border: 2px solid rgb(211, 210, 210);
+	box-sizing: border-box;
+}
+
+#times-logo {
+	border: 2px solid rgb(211, 210, 210);
+	box-sizing: border-box;
+}
+
+#sedona-logo {
+	border: 2px solid rgb(211, 210, 210);
+	box-sizing: border-box;
+}
+
+#bergdorf-logo {
+	border: 2px solid rgb(211, 210, 210);
+	box-sizing: border-box;	
+
+}
+
+#press-info img:hover {
+	border: 5px rgb(111,127,122) solid;
+}
+
+
+#learn :hover {
+	text-decoration: underline;
+}
+
+footer {
+	text-align: right;
+	padding: 0 45px 20px;
+	font-size: x-small;
+}
